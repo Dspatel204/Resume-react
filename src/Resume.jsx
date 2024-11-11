@@ -158,26 +158,26 @@ const Resume = () => {
           <Text variant="headingMd" as="h6" alignment="start">
             projects and portfolio links
           </Text>
-          <Text variant="bodyLg" as="p" alignment="start">
-            Thank you for considering my application. my projects
-            https://apps.shopify.com/mobile-menu-bar
-            <br />
-            https://apps.shopify.com/ad-scroll-to-top
-            <br />
-            https://apps.shopify.com/weblly
-            <br />
-            https://apps.shopify.com/freight-mvp
-            <br />
-            Portfolio link:
-            <br />
-            https://main--dspatelapp.netlify.app/
-            <br />
-            https://master--luvr-dating.netlify.app/
-            <br />
-            https://master--allquiz-play.netlify.app/
-            <br />
-            https://master--quiztop.netlify.app/
-          </Text>
+          <InlineStack as="div" gap={400}>
+            <div>
+              https://apps.shopify.com/mobile-menu-bar
+              <br />
+              https://apps.shopify.com/ad-scroll-to-top
+              <br />
+              https://apps.shopify.com/weblly
+              <br />
+              https://apps.shopify.com/freight-mvp
+            </div>
+            <div>
+              https://main--dspatelapp.netlify.app/
+              <br />
+              https://master--luvr-dating.netlify.app/
+              <br />
+              https://master--allquiz-play.netlify.app/
+              <br />
+              https://master--quiztop.netlify.app/
+            </div>
+          </InlineStack>
         </Box>
         <Box paddingBlock={200}>
           <Text variant="headingMd" as="h6" alignment="start">
