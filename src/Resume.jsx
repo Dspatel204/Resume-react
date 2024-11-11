@@ -158,13 +158,8 @@ const Resume = () => {
           <Text variant="headingMd" as="h6" alignment="start">
             projects and portfolio links
           </Text>
-<<<<<<< HEAD
           <InlineStack gap={400}>
             <Card background="bg-surface-secondary">
-=======
-          <InlineStack as="div" gap={400}>
-            <div>
->>>>>>> e42bee0e1ab7727258730fb85c1d6ce75c16b35c
               https://apps.shopify.com/mobile-menu-bar
               <br />
               https://apps.shopify.com/ad-scroll-to-top
@@ -172,14 +167,8 @@ const Resume = () => {
               https://apps.shopify.com/weblly
               <br />
               https://apps.shopify.com/freight-mvp
-<<<<<<< HEAD
-              <br />
             </Card>
             <Card background="bg-surface-secondary">
-=======
-            </div>
-            <div>
->>>>>>> e42bee0e1ab7727258730fb85c1d6ce75c16b35c
               https://main--dspatelapp.netlify.app/
               <br />
               https://master--luvr-dating.netlify.app/
@@ -187,12 +176,7 @@ const Resume = () => {
               https://master--allquiz-play.netlify.app/
               <br />
               https://master--quiztop.netlify.app/
-<<<<<<< HEAD
-              <br />
             </Card>
-=======
-            </div>
->>>>>>> e42bee0e1ab7727258730fb85c1d6ce75c16b35c
           </InlineStack>
         </Box>
         <Box paddingBlock={200}>
